@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Air Quality</h1>
+  </header>
+  <main1>
+    <div class="card">
+    <h2>Enter Your Info:</h2>
+      <form action="#" method="POST" id="address">
+  
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+  
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+  
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+  
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip" required>
+  
+        <button>Submit</button>
+      </form>
+    </div>
+  </main1>
+  <main2>
+  </main2>
+</body>
+</html>

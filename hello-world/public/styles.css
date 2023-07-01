@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3000px;
+    background-color:lightgrey;
+    padding: 0px;
+    margin: 0px;
+  }
+
+header {
+    height: 700px;
+    flex-direction: column;
+    align-items: center;
+    background-color:cadetblue;
+    width: 1425px;
+}
+
+h1 {
+    font-size: 144px;
+    color: #333; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 225px;
+  }
+
+main1 {
+    height: 700px;
+    background-color:grey;
+    flex-direction: column;
+    align-items: center;
+    width: 1425px;
+    padding-top: 75px;
+}
+
+  .card {
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),-15px -15px 30px rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   }
+  
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color:whitesmoke;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  form label {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    color:whitesmoke;
+    
+  }
+  
+  form input,
+  form select {
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 8px;
+    font-size: larger;
+    background-color: lightgray;
+  }
+  button {
+    margin-top: 25px;
+    width: fit-content;
+    min-width: 100px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2.5px green;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: green;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+
+  button:active {
+    transform: scale(0.75);
+  }
+  main2 {
+    height: 700px;
+    background-color:cadetblue;
+    flex-direction: column;
+    align-items: center;
+    width: 1425px;
+    padding-top: 75px;
+}
